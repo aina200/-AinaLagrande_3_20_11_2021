@@ -1,0 +1,26 @@
+@mixin center_element {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+  
+$color_primaire:#9356DC;
+$color_secondaire:#FF79DA;
+$color_tertiaire:#99E2D0;
+
+* {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a{
+color: black;
+}
