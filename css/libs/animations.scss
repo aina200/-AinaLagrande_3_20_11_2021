@@ -38,10 +38,22 @@
 @keyframes apparition {
     from {
       opacity:0;
-      margin-top:5%;
+      margin-top:10%;
     }
     to {
       opacity:100%;
       margin-top:0%;
     }
+}
+
+/*APPARITION ON MENU PAGES DESKTOP*/
+@keyframes descktop_apparition {
+  from {
+    opacity: 0;
+    margin-top: 12%;
+  }
+  to {
+    opacity: 100%;
+    margin-top: 0%;
+  }
 }

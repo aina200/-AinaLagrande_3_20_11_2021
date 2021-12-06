@@ -75,9 +75,8 @@
       align-items: flex-start;
     }
     article{
-      width: 100%;
+      width: 97%;
       height: 500px;
-      overflow-y: hidden;
       margin-bottom: 5%;
   
       .restaurants-box-txt{
@@ -140,12 +139,21 @@
 
   /* MENU SECTION */
   .menu{
+    .entrees_container ,.plat_container, .dessert_container {
+      width: 90%;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: auto;
+      animation: descktop_apparition 1.5s ease-in-out;
+  }
     h3{
       margin-left: 100px;
     }
     article{
       height: 100px;
       margin-bottom: 1%;
+      width: 50%;
+      margin-left: 20px;
     }
     .commande {
       left: 25%;
@@ -156,7 +164,7 @@
   
 }
 /* TABLETES */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1224px) {
+@media only screen and (min-width : 768px) and (max-width : 1224px) {
   body{
     font-size: 23px;
   }
