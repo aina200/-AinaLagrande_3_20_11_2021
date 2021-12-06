@@ -4,7 +4,7 @@
 Projet 3/14 de la formation Openclassroom "développeur Front-End".
 
 Lien git page :
-https://aina200.github.io/OhMyFood/
+https://aina200.github.io/Oh-My-Food/
 
 
 
