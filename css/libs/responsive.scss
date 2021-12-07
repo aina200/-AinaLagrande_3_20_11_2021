@@ -128,7 +128,7 @@
     img{
       height:55vh;
       -o-object-fit: cover;
-         object-fit: cover;
+      object-fit: cover;
     }
     .menu_name{
       height: 100%;
@@ -139,12 +139,13 @@
 
   /* MENU SECTION */
   .menu{
+    padding-top: 0px;
     .entrees_container ,.plat_container, .dessert_container {
       width: 90%;
       flex-direction: row;
       justify-content: space-between;
       margin: auto;
-      animation: descktop_apparition 1.5s ease-in-out;
+      animation: descktop_apparition 2s ease-in-out;
   }
     h3{
       margin-left: 100px;

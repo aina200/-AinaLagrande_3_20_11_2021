@@ -353,7 +353,7 @@ header h1 {
   -webkit-animation: apparition 1.5s ease-in-out;
   animation: apparition 1.5s ease-in-out;
 }
-.menu p {
+.menu h4, .menu p {
   white-space: nowrap;
   overflow: hidden;
   -o-text-overflow: ellipsis;
@@ -595,12 +595,15 @@ header h1 {
   }
 
   /* MENU SECTION */
+  .menu {
+    padding-top: 0px;
+  }
   .menu .entrees_container, .menu .plat_container, .menu .dessert_container {
     width: 90%;
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
-    animation: descktop_apparition 1.5s ease-in-out;
+    animation: descktop_apparition 2s ease-in-out;
   }
   .menu h3 {
     margin-left: 100px;

@@ -68,7 +68,7 @@
         -webkit-animation: apparition 1.5s ease-in-out;
         animation: apparition 1.5s ease-in-out;
     }
-    p{
+    h4,p{
         white-space: nowrap;
         overflow: hidden;
         -o-text-overflow: ellipsis;
@@ -81,6 +81,7 @@
         position: relative;
         padding-bottom: 0.5rem;
         font-weight: normal;
+        
 
         &::after {
             content: "";
