@@ -5,6 +5,10 @@
   overflow-x: hidden;
 }
 
+body {
+  max-width: 1680px;
+}
+
 a {
   color: black;
 }
@@ -242,6 +246,13 @@ header h1 {
   height: 100%;
   padding-bottom: 50px;
 }
+.restaurant .restaurant_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+}
 .restaurant article {
   width: 350px;
   height: 310px;
@@ -250,6 +261,7 @@ header h1 {
   -webkit-box-shadow: #818181 6px 3px 3px;
   box-shadow: #818181 6px 8px 8px;
   overflow-y: hidden;
+  margin-bottom: 40px;
 }
 .restaurant article img {
   width: 350px;
@@ -327,7 +339,7 @@ header h1 {
 .homepage-footer {
   background-color: #363636;
   padding-bottom: 15%;
-  margin-top: 25%;
+  margin-top: 15%;
 }
 .homepage-footer h4 {
   font-family: "shrikhand";
@@ -401,7 +413,6 @@ header h1 {
 
 /* MENU SECTION */
 .menu {
-  padding-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -413,7 +424,6 @@ header h1 {
   -ms-flex-pack: center;
   justify-content: center;
   background-color: #f6f6f6;
-  padding-bottom: 100px;
 }
 .menu .entrees_container, .menu .plat_container, .menu .dessert_container {
   display: -webkit-box;
@@ -510,6 +520,7 @@ header h1 {
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  transition: width 1.5s;
 }
 .menu article .plat_items {
   margin-left: 20px;
@@ -674,9 +685,6 @@ header h1 {
   }
 
   /* MENU SECTION */
-  .menu {
-    padding-top: 0px;
-  }
   .menu .entrees_container, .menu .plat_container, .menu .dessert_container {
     width: 90%;
     flex-direction: row;
@@ -696,6 +704,10 @@ header h1 {
   .menu .commande {
     left: 25%;
     padding: 2%;
+    margin-top: 5%;
+  }
+
+  .homepage-footer {
     margin-top: 5%;
   }
 }
@@ -760,8 +772,7 @@ header h1 {
 
   /* FOOTER */
   .homepage-footer {
-    padding-bottom: 0%;
-    margin-top: 0%;
+    margin-top: 5%;
   }
   .homepage-footer h4 {
     text-align: center;

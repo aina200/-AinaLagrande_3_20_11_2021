@@ -139,7 +139,6 @@
 
   /* MENU SECTION */
   .menu{
-    padding-top: 0px;
     .entrees_container ,.plat_container, .dessert_container {
       width: 90%;
       flex-direction: row;
@@ -161,6 +160,9 @@
       padding: 2%;
       margin-top: 5%;
     }
+  }
+  .homepage-footer{
+    margin-top: 5%;
   }
   
 }
@@ -229,9 +231,7 @@
   }
   /* FOOTER */
   .homepage-footer{
-      padding-bottom: 0%;
-      margin-top: 0%;
-  
+      margin-top: 5%;
       h4 {
         text-align: center;
       }
@@ -281,4 +281,5 @@
       margin-top: 5%;
     }
   }
+
 }
